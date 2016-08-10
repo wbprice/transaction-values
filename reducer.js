@@ -28,20 +28,23 @@ function backfillHistory(input) {
 
 function dedupeTransactions(input) {
 
-  return input.reduce((memo, current) => {
+  return _.sortBy(input.reduce((memo, current) => {
 
-    const previousVote = memo.find(item => {
+    let previousVoteIndex = memo.findIndex(item => {
       return item.from === current.from &&
              item.vote === current.vote
     })
 
-    if (!previousVote) {
+    if (previousVoteIndex >= 0) {
+      memo[previousVoteIndex] = current
+    }
+    else {
       memo.push(current)
     }
 
     return memo
 
-  }, [])
+  }, []), 'blockNumber')
 
 }
 

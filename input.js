@@ -19,7 +19,7 @@ module.exports = [
     "from": "0x8af7632df955505ec0cb6d2a4b6f2ee2d9e4defd",
     "blockNumber": "1412714",
     "signal": "19535993380000000000",
-    "vote": "1"
+    "vote": "0"
   },
   {
     "from": "0x8af7632df955505ec0cb6d2a4b6f2ee2d9e4defd",
