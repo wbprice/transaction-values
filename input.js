@@ -1,50 +1,56 @@
 module.exports = [
   {
     "from": "dave",
-    "signal": "7710412000",
-    "blockNumber": "1344055",
+    "signal": "15",
+    "blockNumber": "1",
     "vote": "0"
   },
   {
     "from": "dave",
-    "signal": "7104120000000000",
-    "blockNumber": "1346739",
+    "signal": "15",
+    "blockNumber": "2",
     "vote": "0"
   },
   {
     "from": "jill",
-    "blockNumber": "1412680",
-    "signal": "14377104120000000000",
+    "blockNumber": "3",
+    "signal": "20",
+    "vote": "1"
+  },
+  {
+    "from": "phillip",
+    "blockNumber": "3",
+    "signal": "10",
     "vote": "1"
   },
   {
     "from": "jill",
-    "blockNumber": "1412714",
-    "signal": "19535993380000000000",
+    "blockNumber": "4",
+    "signal": "20",
     "vote": "0"
   },
   {
     "from": "jill",
-    "blockNumber": "1412721",
-    "signal": "19535533840000000000",
+    "blockNumber": "5",
+    "signal": "20",
     "vote": "1"
   },
   {
     "from": "jill",
-    "blockNumber": "1412734",
-    "signal": "19535074300000000000",
+    "blockNumber": "6",
+    "signal": "20",
     "vote": "1"
   },
   {
     "from": "jill",
-    "blockNumber": "1412767",
-    "signal": "24536638620000000000",
+    "blockNumber": "7",
+    "signal": "20",
     "vote": "1"
   },
   {
     "from": "jill",
-    "blockNumber": "1412782",
-    "signal": "24496934300000000000",
+    "blockNumber": "8",
+    "signal": "20",
     "vote": "1"
   }
 ]
